@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #5176a6;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+.img src {
+    display: inline;
+}
+
+.logo-text {
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    display: inline;
+}
+
+.btn {
+    margin: 16px;
+    float: right; /*----position button mobile ----*/
+    position: inline;
+    background-color: #733646;
+    border-color: #d0d5d9;
+    color: #d0d5d9;
+}
+
+.btn:hover {
+    color: #733646;
+    border-color: #733646;
+}
+
+.btn--btn-light {
+    text-align: center;
+    padding: 8px;
+}
+/*------------ container------------*/
+
+.container-fluid {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("cont1index.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*------------ box-container------------*/yling for landing page
+
+.box {
+    display: inline;
+    text-align: center;
+
+}
+
+.box-container {
+    color: #fff;
+    background-color: #5176a6;
+    width: 100px;
+    float: left;
+    margin: 12px;
+    padding: 8px;
+}
+
+.box-container2 {
+    color: #fff;
+    background-color: #6f9abf;
+    width: 100px;
+    float: left;
+    margin: 12px;
+    padding: 8px;
+}
+.box-container3 {
+    color: #fff;
+    background-color: #d0d5d9;
+    width: 100px;
+    float: left;
+    margin: 12px;
+    padding: 8px;
+}
+/*------------footer------------*/
+.footer {
+    display: flex;
+    background-color: #5176a6;
+    height: 120px;
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: #733646;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: #ffffff;
+}
+.fa-twitter {
+    color: #ffffff;
+}
+.fa-youtube {
+    color: #ffffff;
+}
+.fa-instagram {
+    color: #ffffff;
+}
+.fa-google {
+    color: #ffffff;
+
+}
+p.copyright {
+    color: #fff;
+    text-align: left;
+    font-size: 12px;
+    padding: 20px;
+    margin: 2px;
+
+}
+
